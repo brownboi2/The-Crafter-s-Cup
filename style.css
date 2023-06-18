@@ -1,0 +1,464 @@
+html, body{
+height: 4000px;
+width: 1000px;
+margin: 0;
+padding: 0;
+font-family: lato;
+scroll-behavior: smooth;
+}
+
+#header{
+border-width:2px;
+border-style:solid;
+border-color: rgb(0,0,0);
+height: 80px;
+color: rgb(0,0,0);
+background-color: rgb(255,255,255);
+top: 15px;
+position: fixed;
+left: 8px;
+right: 8px;
+border-radius: 20px;
+border: 1px solid black;
+z-index: 999;
+}
+
+#copyright{
+position: fixed;
+left: 20px;
+bottom: -5px;
+}
+
+#socials{
+height: 35px;
+color: rgb(0,0,0);
+background-color: rgb(255, 255, 255);
+bottom: 6px;
+position: fixed;
+left: 5px;
+border-radius: 20px;
+right: 5px;
+border: 1px solid black;
+z-index: 999;
+}
+
+#box1{
+position: absolute;
+top: 980px;
+left: 0px;
+right: 0px;
+height: 2050px;
+background-color: rgb(255,255,255);
+
+}
+
+#instagram{
+position: fixed;
+width: 30px;
+right: 15px;
+bottom: 9.55px;
+}
+
+#twitter{
+position: fixed;
+width: 30px;
+right: 57px;
+bottom: 9.55px;
+}
+
+#facebook{
+position: fixed;
+width: 30px;
+right: 100px;
+bottom: 9.55px;
+}
+
+#welcome{
+color: rgb(255,255,255);
+font-size: 65px;
+z-index: -8;
+position: absolute;
+right: 23%;
+top: 400px;
+font-weight: 1000;
+}
+
+#welcomephoto{
+position: absolute;
+  top: 0;
+right: 0;
+  z-index: -10;
+}
+
+#black{
+  position: absolute;
+  top: 0;
+right: 0;
+  z-index: -9;
+  opacity: 0.7;
+}  
+
+#motto{
+  position: absolute;
+left: 50.5%;
+transform: translate(-50%, -50%);
+  top: 525px;
+color: rgb(255,255,255);
+font-weight: 50;
+}
+
+#hometext{
+z-index: 999;
+position: absolute;
+font-size: 40px;
+top: -12px;
+right: 1350px;
+font-weight: 20;
+  font-family: latolight;
+color: rgb(0,0,0);
+transition: 0.1s;
+}
+
+#hometext:hover{
+position: absolute;
+font-size: 43px;
+top: -16px;
+right: 1348px;
+font-weight: 20;
+  font-family: latolight;
+color: rgb(150,150,150);
+transition: 0.1s;
+}
+
+#abouttext{
+z-index: 999;
+position: absolute;
+font-size: 40px;
+top: -12px;
+right: 1010px;
+font-weight: 20;
+  font-family: latolight;
+transition: 0.1s;
+color: rgb(0,0,0);
+}
+
+#abouttext:hover{
+position: absolute;
+font-size: 43px;
+top: -16px;
+right: 1007px;
+font-weight: 20;
+  font-family: latolight;
+color: rgb(150,150,150);
+transition: 0.1s;
+}
+
+#contacttext{
+z-index: 999;
+position: absolute;
+font-size: 40px;
+top: -12px;
+right: 650px;
+font-weight: 20;
+  font-family: latolight;
+transition: 0.1s;
+color: rgb(0,0,0);
+}
+
+#contacttext:hover{
+position: absolute;
+font-size: 43px;
+top: -16px;
+right: 648px;
+font-weight: 20;
+  font-family: latolight;
+color: rgb(150,150,150);
+transition: 0.1s;
+}
+
+
+#ordertext{
+z-index: 999;
+position: absolute;
+font-size: 40px;
+top: -12px;
+right: 280px;
+font-weight: 20;
+  font-family: latolight;
+transition: 0.1s;
+}
+
+#ordertext:hover{
+position: absolute;
+font-size: 43px;
+top: -16px;
+right: 278px;
+font-weight: 20;
+  font-family: latolight;
+color: rgb(150,150,150);
+transition: 0.1s;
+}
+
+#homepagelogo{
+position: absolute;
+width: 90px;
+top: -4px;
+}
+
+#checkouticon{
+width: 80px;
+left: 1550px;
+top: 15px;
+position: fixed;
+transition: 0.1s;
+}
+
+#checkouticon:hover{
+width: 85px;
+opacity: 0.5;
+left: 1548px;
+top: 13px;
+position: fixed;
+transition: 0.1s;
+}
+
+#aboutusblock{
+color: rgb(0,0,0);
+}
+
+#a{
+top: 980px;
+position: absolute;
+}
+
+#aboutus{
+color: rgb(0,0,0);
+font-size: 60px;
+position: absolute;
+top: 1050px;
+left: 730px;
+}
+
+#ourbeliefstitle{
+color: rgb(0,0,0);
+font-size: 40px;
+position: absolute;
+top: 1250px;
+left: 250px;
+}
+
+#ourbeliefs{
+color: rgb(0,0,0);
+font-size: 30px;
+position: absolute;
+top: 1350px;
+left: 240px;
+width: 550px;
+        text-align: left;
+}
+
+
+#workethicstitle{
+color: rgb(0,0,0);
+font-size: 40px;
+position: absolute;
+top: 1950px;
+left: 1200px;
+}
+
+#workethics{
+color: rgb(0,0,0);
+font-size: 30px;
+position: absolute;
+top: 2050px;
+left: 910px;
+width: 550px;
+        text-align: right;
+}
+
+#futuregoalstitle{
+color: rgb(0,0,0);
+font-size: 40px;
+position: absolute;
+top: 2650px;
+left: 250px;
+}
+
+#futuregoals{
+color: rgb(0,0,0);
+font-size: 30px;
+position: absolute;
+top: 2750px;
+left: 240px;
+width: 600px;
+text-align: left;
+}
+
+
+#photo1{
+width: 550px;
+top: 1260px;
+left: 950px;
+position: absolute;
+border-radius: 2%;
+}
+
+#photo2{
+width: 550px;
+top: 1960px;
+left: 250px;
+position: absolute;
+border-radius: 2%;
+}
+
+#photo3{
+width: 550px;
+top: 2760px;
+left: 950px;
+position: absolute;
+border-radius: 2%;
+}
+
+#contactblock{
+position: absolute;
+width: 100%;
+height: 0;
+padding-bottom: 30%; /* Adjust this value to match the aspect ratio of your image */
+background-image: url('images/webimages/photo4.png');
+background-size: cover;
+background-position: center;
+top: 3700px;
+left: 0px;
+right: 0px;
+}
+
+#black2{
+opacity: 0.7;
+position: absolute;
+width: 100%;
+      height: 0;
+      padding-bottom: 30%; /* Adjust this value to match the aspect ratio of your image */
+      background-image: url('images/webimages/black.jpg');
+      background-size: cover;
+      background-position: center;
+
+top: 3700px;
+left: 0px;
+right: 0px;
+}
+
+#contacttitle{
+position: absolute;
+top: 3700px;
+left: 70px;
+color: rgb(255,255,255);
+z-index: 998;
+font-size: 45px;
+}
+
+#phone{
+position: absolute;
+top: 3850px;
+left: 70px;
+z-index: 998;
+width: 30px;
+}
+
+#number{
+position: absolute;
+color: rgb(255,255,255);
+top: 3820px;
+left: 120px;
+font-size: 25px;
+}
+
+#email{
+position: absolute;
+top: 3929px;
+left: 70px;
+z-index: 998;
+width: 35px;
+}
+
+#emailtext{
+position: absolute;
+color: rgb(255,255,255);
+top: 3895px;
+left: 120px;
+font-size: 25px;
+}
+
+#bottomlogo{
+position: absolute;
+top: 3700px;
+left: 1470px;
+z-index: 998;
+width: 200px;
+}
+
+#ltd{
+position: absolute;
+color: rgb(255,255,255);
+top: 3895px;
+left: 1340px;
+font-size: 20px;
+}
+
+#location{
+position: absolute;
+color: rgb(255,255,255);
+top: 3930px;
+left: 1275px;
+font-size: 20px;
+}
+
+#time{
+position: absolute;
+color: rgb(255,255,255);
+top: 3965px;
+left: 1400px;
+font-size: 20px;
+}
+
+
+@font-face {
+  font-family: latolight;
+  src: url(fonts/LatoWeb-Light.ttf);
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+  font-family: latolight;
+  src: url(fonts/LatoWeb-LightItalic.ttf);
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+  font-family: lato;
+  src: url(fonts/LatoWeb-Regular.ttf);
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+  font-family: lato;
+  src: url(fonts/LatoWeb-Italic.ttf);
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+  font-family: lato;
+  src: url(fonts/LatoWeb-Bold.ttf);
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+  font-family: lato;
+  src: url(fonts/LatoWeb-BoldItalic.ttf);
+font-weight: bold;
+font-style: italic;
+}
