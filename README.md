@@ -1,2 +1,2 @@
-# The-Crafter-s-Cup
+# The Crafter's Cup
 School Project
